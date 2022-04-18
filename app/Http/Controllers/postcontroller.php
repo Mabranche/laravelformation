@@ -15,7 +15,9 @@ class PostController extends Controller
         ];
 
 
-        return view('articles', compact('post '));
+        return view('articles', [
+            'posts' => $posts
+        ]);
     }
 
     public function show($id)
