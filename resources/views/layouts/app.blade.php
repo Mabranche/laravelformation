@@ -9,7 +9,9 @@
 </head>
 <body>
 @include('partials.navbar')
-@yield('content')
+<div class="container mx-auto">
+   @yield('content')
+</div>
 <script src="{{ asset('js/app.js ') }}"></script>
 </body>
 </html>
