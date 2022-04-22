@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Fri Apr 22 2022 10:47:20 GMT+0100 (heure normale d’Afrique de l’Ouest)
+------------------------------------------------------
+
+Modified files:
+
+
+Created files:
+* .autogit/logs/log-22-3-2022-10-17-0.txt
+
+
+Deleted files:
+* package-lock.json
+* package.json
+
+
+Renamed files:
