@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Fri Apr 22 2022 14:20:05 GMT+0100 (heure normale d’Afrique de l’Ouest)
+------------------------------------------------------
+
+Modified files:
+* public/js/app.js
+* resources/scss/app.scss
+* webpack.mix.js
+
+
+Created files:
+* .autogit/logs/log-22-3-2022-13-49-44.txt
+
+
+Deleted files:
+* tailwind.config.js
+
+
+Renamed files:
