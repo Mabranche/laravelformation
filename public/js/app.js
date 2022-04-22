@@ -2156,6 +2156,18 @@ module.exports = {
 
 /***/ }),
 
+/***/ "./resources/js/app.js":
+/*!*****************************!*\
+  !*** ./resources/js/app.js ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
+
+__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
+
+alert('coucou');
+
+/***/ }),
+
 /***/ "./resources/js/bootstrap.js":
 /*!***********************************!*\
   !*** ./resources/js/bootstrap.js ***!
@@ -19399,6 +19411,16 @@ var __WEBPACK_AMD_DEFINE_RESULT__;/**
 
 /***/ }),
 
+/***/ "./resources/scss/app.scss":
+/*!*********************************!*\
+  !*** ./resources/scss/app.scss ***!
+  \*********************************/
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleBuildError: Module build failed (from ./node_modules/sass-loader/dist/cjs.js):\nValidationError: Invalid options object. Sass Loader has been initialized using an options object that does not match the API schema.\n - options has an unknown property '0'. These properties are valid:\n   object { implementation?, sassOptions?, additionalData?, sourceMap?, webpackImporter? }\n    at validate (D:\\laragon\\www\\laravelformation\\node_modules\\webpack\\node_modules\\schema-utils\\dist\\validate.js:105:11)\n    at Object.getOptions (D:\\laragon\\www\\laravelformation\\node_modules\\webpack\\lib\\NormalModule.js:585:19)\n    at Object.loader (D:\\laragon\\www\\laravelformation\\node_modules\\sass-loader\\dist\\index.js:25:24)\n    at processResult (D:\\laragon\\www\\laravelformation\\node_modules\\webpack\\lib\\NormalModule.js:758:19)\n    at D:\\laragon\\www\\laravelformation\\node_modules\\webpack\\lib\\NormalModule.js:860:5\n    at D:\\laragon\\www\\laravelformation\\node_modules\\loader-runner\\lib\\LoaderRunner.js:400:11\n    at D:\\laragon\\www\\laravelformation\\node_modules\\loader-runner\\lib\\LoaderRunner.js:252:18");
+
+/***/ }),
+
 /***/ "./node_modules/process/browser.js":
 /*!*****************************************!*\
   !*** ./node_modules/process/browser.js ***!
@@ -19645,16 +19667,12 @@ process.umask = function() { return 0; };
 /******/ 	})();
 /******/ 	
 /************************************************************************/
-var __webpack_exports__ = {};
-// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
-(() => {
-/*!*****************************!*\
-  !*** ./resources/js/app.js ***!
-  \*****************************/
-__webpack_require__(/*! ./bootstrap */ "./resources/js/bootstrap.js");
-
-alert('coucou');
-})();
-
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	__webpack_require__("./resources/js/app.js");
+/******/ 	// This entry module doesn't tell about it's top-level declarations so it can't be inlined
+/******/ 	var __webpack_exports__ = __webpack_require__("./resources/scss/app.scss");
+/******/ 	
 /******/ })()
 ;
