@@ -1,0 +1,19 @@
+-------------------- Auto-Git Log --------------------
+		Fri Apr 22 2022 09:16:20 GMT+0100 (heure normale d’Afrique de l’Ouest)
+------------------------------------------------------
+
+Modified files:
+* resources/js/app.js
+* resources/scss/app.scss
+* resources/views/layouts/app.blade.php
+
+
+Created files:
+* .autogit/logs/log-20-3-2022-17-44-39.txt
+* package-lock.json
+
+
+Deleted files:
+
+
+Renamed files:
