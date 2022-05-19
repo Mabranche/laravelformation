@@ -1,0 +1,17 @@
+-------------------- Auto-Git Log --------------------
+		Thu May 19 2022 10:30:28 GMT+0100 (heure normale d’Afrique de l’Ouest)
+------------------------------------------------------
+
+Modified files:
+* resources/views/form.blade.php
+* routes/web.php
+
+
+Created files:
+* .autogit/logs/log-29-3-2022-12-53-23.txt
+
+
+Deleted files:
+
+
+Renamed files:
