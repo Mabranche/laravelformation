@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Post;
-use Illuminate\Http\Requests;
+use Illuminate\Http\Request;
 
 
 class PostController extends Controller
@@ -42,6 +42,12 @@ class PostController extends Controller
     public function create()
     {
         return view('form');
+    }
+
+    public function store(Request $request)
+    {
+        $post = new Post;
+        dd($request->content);
     }
     public function contact()
     {
