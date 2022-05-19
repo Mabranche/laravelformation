@@ -1,0 +1,22 @@
+-------------------- Auto-Git Log --------------------
+		Fri Apr 29 2022 12:53:23 GMT+0100 (heure normale d’Afrique de l’Ouest)
+------------------------------------------------------
+
+Modified files:
+* app/Http/Controllers/postcontroller.php
+* database/factories/UserFactory.php
+* resources/js/app.js
+* resources/views/article.blade.php
+* resources/views/articles.blade.php
+* resources/views/partials/navbar.blade.php
+* routes/web.php
+
+
+Created files:
+* resources/views/form.blade.php
+
+
+Deleted files:
+
+
+Renamed files:
