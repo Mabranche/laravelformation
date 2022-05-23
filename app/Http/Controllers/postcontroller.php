@@ -12,7 +12,6 @@ class PostController extends Controller
     {
         $posts = Post::all();
 
-
         return view('articles', [
             'posts' => $posts
         ]);
@@ -46,8 +45,15 @@ class PostController extends Controller
 
     public function store(Request $request)
     {
-        $post = new Post;
-        dd($request->content);
+        //$post = new Post;
+        // $post->title = $request->title;
+        // $post->content = $request->content;
+        //$post->save();
+        post::create([
+            'title' =>  $request->title,
+            'content' => $request->content
+        ]);
+        dd('post cree!');
     }
     public function contact()
     {
